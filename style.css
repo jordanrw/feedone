@@ -46,6 +46,10 @@ body {
     font-weight:bold;
 }
 
+.white {
+  color: white !important;
+}
+
 /* Navigation */
 .nav-item {
   font-weight: bold;
@@ -65,13 +69,17 @@ body {
   background-size: cover;
 }
 
-#stats {
-  background-image: url('./images/bg2.png'); 
-  background-repeat: no-repeat; 
-  background-position: center center; 
-  background-size: cover;
+#about {
+  color: white;
+  background-color: #FD764B;
+}
 
-
+#caroline-photo {
+  float: left;
+  margin: 20px;
+  width: 33%;
+  height: auto;
+  border-radius: 50%;
 }
 
 #get-involved {
@@ -80,13 +88,6 @@ body {
   background-size: cover;
   background-color:white;
   color: white;
-}
-
-#jw-photo {
-  float: left;
-  margin: 0px 10px;
-  width: 30%;
-  height: auto;
 }
 
 .margin-adjust { 
@@ -200,4 +201,14 @@ body {
 .btn-2a:active {
   color: black;
   background: white;
+}
+
+@media (min-width: 850px) {
+  #caroline-photo {
+  float: left;
+  margin: 20px;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
 }
