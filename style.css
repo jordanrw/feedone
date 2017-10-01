@@ -18,7 +18,7 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* Body */
+/* body, headers, other, */
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
@@ -44,6 +44,11 @@ body {
   font-size: 16px;
 }
 
+.footer-number {
+  font-family: KlinicSlabLight; 
+  font-size: 36px;
+}
+
 .footer p {
   font-size: 24px;
 }
@@ -54,6 +59,11 @@ body {
 
 .white {
   color: white !important;
+}
+
+.tint {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);    
 }
 
 /* Navigation */
@@ -69,16 +79,38 @@ body {
 
 /* Panels */
 #cover-bg{
-  background-image: url('./images/bg1.png'); 
+  /* background-image: url('./images/bg1.png'); 
   background-repeat: no-repeat; 
-  background-position: center center; 
-  background-size: cover;
+  background-position: center center;
+  background-size: cover; */
+  background-color: #00D9C1;
 }
 
+/* Video */
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; 
+  width: 100%;
+  left: 0;
+} 
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+  position: absolute;
+  width: 66%; 
+  height: 70%;
+  text-align: center;
+  left: 18%;
+}
+
+/* About */
 #about {
   color: white;
   background-color: #FD764B;
-  padding: 50px;
 }
 
 #caroline-photo {
@@ -89,24 +121,10 @@ body {
   border-radius: 50%;
 }
 
-#get-involved {
-  background-image: url('./images/bg3.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color:white;
+/* Stats */
+#stats {
+  background-color: #4256B3;
   color: white;
-}
-
-.margin-adjust { 
-  margin: 0px 20%;
-}
-
-.title-container {
-  margin: 30px;
-  padding-left: 20px;
-  font-family: BebasNeue; 
-  font-size: 35pt;
-  color: black;
 }
 
 .stat-number {
@@ -128,34 +146,16 @@ body {
   color: #979797;
 }
 
-.embed-container { 
-  position: relative; 
-  padding-bottom: 56.25%; 
-  height: 0; 
-  overflow: hidden; 
-  max-width: 100%; 
-  width: 100%;
-  left: 0;
-} 
-
-.embed-container iframe, 
-.embed-container object, 
-.embed-container embed { 
-  position: absolute;
-  width: 66%; 
-  height: 70%;
-  text-align: center;
-  left: 18%;
+.margin-adjust { 
+  margin: 0px 20%;
 }
 
-.footer-number {
-  font-family: KlinicSlabLight; 
-  font-size: 36px;
-}
-
-.tint {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);    
+.title-container {
+  margin: 30px;
+  padding-left: 20px;
+  font-family: BebasNeue; 
+  font-size: 35pt;
+  color: black;
 }
 
 /* Buttons */
@@ -210,12 +210,11 @@ body {
   background: white;
 }
 
-@media (min-width: 850px) {
+@media (max-width: 600px) {
   #caroline-photo {
-  float: left;
-  margin: 20px;
-  width: 200px;
-  height: auto;
-  border-radius: 50%;
-}
+    float: left;
+    margin: 30px;
+    width: 85%;
+    height: auto;
+  }
 }
