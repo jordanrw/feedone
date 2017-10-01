@@ -38,6 +38,12 @@ body {
     font-size: 25px;
 }
 
+.subhead {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .footer p {
   font-size: 24px;
 }
@@ -72,6 +78,7 @@ body {
 #about {
   color: white;
   background-color: #FD764B;
+  padding: 50px;
 }
 
 #caroline-photo {
@@ -95,10 +102,10 @@ body {
 }
 
 .title-container {
-  margin: 30px 30px 0px 30px;
+  margin: 30px;
   padding-left: 20px;
   font-family: BebasNeue; 
-  font-size: 32pt;
+  font-size: 35pt;
   color: black;
 }
 
