@@ -83,7 +83,8 @@ body {
   background-repeat: no-repeat; 
   background-position: center center;
   background-size: cover; */
-  background-color: #00D9C1;
+  /* background-color: #00D9C1; */
+  background-color: #40b191;
 }
 
 /* Video */
@@ -110,7 +111,7 @@ body {
 /* About */
 #about {
   color: white;
-  background-color: #FD764B;
+  background-color: #FA5632;
 }
 
 #caroline-photo {
@@ -123,7 +124,7 @@ body {
 
 /* Stats */
 #stats {
-  background-color: #4256B3;
+  background-color: #20265F;
   color: white;
 }
 
