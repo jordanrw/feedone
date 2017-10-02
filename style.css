@@ -147,7 +147,7 @@ body {
 }
 
 .stat-number {
-  font-family: KlinicSlabLight; 
+  font-family: BebasNeue; 
   font-size: 50pt;
   color: white;
 
@@ -159,8 +159,8 @@ body {
 
 .stat-desc {
   color: white;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .stat-src {
