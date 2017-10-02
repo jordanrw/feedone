@@ -44,6 +44,14 @@ body {
   font-size: 16px;
 }
 
+.title-container {
+  margin: 30px;
+  padding-left: 20px;
+  font-family: BebasNeue; 
+  font-size: 35pt;
+  color: black;
+}
+
 .footer p {
   font-style: italic;
   font-size: 24px;
@@ -64,6 +72,10 @@ body {
 .tint {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);    
+}
+
+.margin-adjust { 
+  margin: 0px 20%;
 }
 
 /* Navigation */
@@ -88,6 +100,10 @@ body {
 }
 
 /* Video */
+#video {
+  background-color: whitesmoke;
+}
+
 .embed-container { 
   position: relative; 
   padding-bottom: 56.25%; 
@@ -124,7 +140,7 @@ body {
 
 /* Stats */
 #stats {
-  background-color: #20265F;
+  background-color: #246DBC;
   color: white;
 }
 
@@ -149,32 +165,24 @@ body {
   color: #979797;
 }
 
-.margin-adjust { 
-  margin: 0px 20%;
-}
-
-.title-container {
-  margin: 30px;
-  padding-left: 20px;
-  font-family: BebasNeue; 
-  font-size: 35pt;
-  color: black;
+#chialpha {
+  
 }
 
 /* Buttons */
 .btn {
   border: none;
-  font-family: KlinicSlabLight;
-  font-size: 24px;
+  font-family: BebasNeue;
+  font-size: 20px;
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 15px 60px;
+  padding: 10px 40px;
   display: inline-block;
   margin: 15px 30px;
   letter-spacing: 1px;
-  font-weight: 700;
   outline: none;
+  border-radius: 30px;
   position: relative;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -191,14 +199,14 @@ body {
 }
 
 .btn-1 {
-  border: 2px solid black;
-  color: black;
+  border: 2px solid #00B293;
+  color: #00B293;
 }
 
 .btn-1a:hover,
 .btn-1a:active {
   color: white;
-  background: black;
+  background: #00B293;
 }
 
 .btn-2 {
@@ -209,11 +217,11 @@ body {
 
 .btn-2a:hover,
 .btn-2a:active {
-  color: black;
+  color: #00B293;
   background: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   #caroline-photo {
     float: left;
     margin: 30px;
