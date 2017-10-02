@@ -81,6 +81,7 @@ body {
 /* Navigation */
 .nav-item {
   font-weight: bold;
+  font-size: 15px;
   color: white !important;
 }
 
@@ -127,7 +128,7 @@ body {
 /* About */
 #about {
   color: white;
-  background-color: #FA5632;
+  background-color: #FF5B2D;
 }
 
 #caroline-photo {
@@ -140,7 +141,8 @@ body {
 
 /* Stats */
 #stats {
-  background-color: #246DBC;
+  /* background-color: #246DBC; */
+  background-color: #FF9E47;
   color: white;
 }
 
