@@ -1,19 +1,4 @@
 /* Fonts */
-@font-face {
-  font-family: KlinicSlabBook;
-  src: url("./fonts/KlinicSlabBook.otf") format("opentype");
-}
-
-@font-face {
-  font-family: KlinicSlabLight;
-  src: url("./fonts/KlinicSlabLight.otf") format("opentype");
-}
-
-@font-face {
-  font-family: KlinicSlabBold;
-  src: url("./fonts/KlinicSlabBold.otf") format("opentype");
-}
-
 .source-sans { 
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -22,7 +7,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
-  font-size: 18px;
+  font-size: 16px !important;
 }
 
 .caroline-head {
@@ -41,7 +26,7 @@ body {
 .subhead {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .title-container {
@@ -129,11 +114,12 @@ body {
 #about {
   color: white;
   background-color: #F0652F;
+  font-size: 16px;
 }
 
 #caroline-photo {
   float: left;
-  margin: 20px;
+  margin: 30px;
   width: 33%;
   height: auto;
   border-radius: 50%;
