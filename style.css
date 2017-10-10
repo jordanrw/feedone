@@ -1,6 +1,7 @@
 /* Fonts */
-.source-sans { 
-  font-family: 'Source Sans Pro', sans-serif;
+@font-face {
+  font-family: 'Bebas';
+  src:url("fonts/BebasNeue.otf");
 }
 
 /* body, headers, other, */
@@ -12,7 +13,7 @@ body {
 
 .caroline-head {
     color: white;
-    font-family: 'BebasNeue', 'Source Sans Pro', sans-serif;
+    font-family: 'Bebas', 'Source Sans Pro', sans-serif;
     font-size: 500%;
 }
 
@@ -32,7 +33,7 @@ body {
 .title-container {
   margin: 30px;
   padding-left: 20px;
-  font-family: 'BebasNeue', 'Source Sans Pro', sans-serif;
+  font-family: 'Bebas', 'Source Sans Pro', sans-serif;
   font-size: 35pt;
   color: gray;
 }
@@ -133,7 +134,7 @@ body {
 }
 
 .stat-number {
-  font-family: 'BebasNeue', 'Source Sans Pro', sans-serif;
+  font-family: 'Bebas', 'Source Sans Pro', sans-serif;
   font-size: 50pt;
   color: white;
 
@@ -160,7 +161,7 @@ body {
 /* Buttons */
 .btn {
   border: none;
-  font-family: 'BebasNeue', 'Source Sans Pro', sans-serif;
+  font-family: 'Bebas', 'Source Sans Pro', sans-serif;
   font-size: 20px;
   color: inherit;
   background: none;
