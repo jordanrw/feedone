@@ -162,18 +162,19 @@ body {
   background-color: #F4F7FA;
 }
 
+#school-stat-photo {
+  float:inherit;
+  margin: 40px;
+  width: 40%;
+  height: auto;
+  max-width: 30%;
+}
+
 .school-stat-desc { 
   color: black;
   font-weight: 400;
   font-size: 16px;
   padding: 20px;
-}
-
-#school-stat-photo {
-  float:inherit;
-  margin: 30px;
-  width: 40%;
-  height: auto;
 }
 
 .school-stat-number {
