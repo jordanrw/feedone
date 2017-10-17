@@ -144,7 +144,7 @@ body {
 }
 
 .stat-cont {
-  margin: 50px;
+  margin: 70px;
 }
 
 .stat-desc {
@@ -162,6 +162,28 @@ body {
   background-color: #F4F7FA;
 }
 
+.school-stat-desc { 
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px;
+}
+
+#school-stat-photo {
+  float:inherit;
+  margin: 30px;
+  width: 40%;
+  height: auto;
+}
+
+.school-stat-number {
+  font-family: 'Bebas', 'Source Sans Pro', sans-serif;
+  font-size: 25pt;
+  color: gray;
+
+}
+
+/* Chi Alpha */
 #chialpha {
   
 }
@@ -174,7 +196,7 @@ body {
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 10px 45px;
+  padding: 10px 50px;
   display: inline-block;
   letter-spacing: 1px;
   outline: none;
@@ -222,6 +244,9 @@ body {
     margin: 30px;
     width: 85%;
     height: auto;
+  }
+  #school-stat-photo {
+    width: 50%;
   }
   .caroline-head {
     font-size: 400%;
